@@ -4,6 +4,24 @@ body {
     padding: 0;
 }
 
+.header{
+width:100%;
+margin:0px auto 0px;
+color:white;
+text-align:center;
+border:0px solid #D0D0D0;
+border-bottom:none;
+border-radius:35px 35px 0px 0px;
+margin-top:1%;
+padding-top:10px;
+padding-bottom:10px;
+filter:drop-shadow(9px 9px 9px rgba(0,0,0,0.4));
+background:linear-gradient(130deg, #84D6DA,#84D6DA,#13164f);
+background-size:300% 300%;
+-webkit-animation:Animation 6s ease infinite;
+-moz-animation:Animation 6s ease infinite;
+animation:Animation 6s ease infinite;
+}
 .container {
     width: 80%;
     margin: 0 auto;
