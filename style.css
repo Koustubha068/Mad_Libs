@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+h1:hover{
+opacity:0.7;
+cursor:pointer;
+}
 
 .header{
 width:100%;
@@ -10,17 +14,30 @@ margin:0px auto 0px;
 color:white;
 text-align:center;
 border:0px solid #D0D0D0;
-border-bottom:none;
-border-radius:35px 35px 0px 0px;
-margin-top:1%;
+
 padding-top:10px;
 padding-bottom:10px;
 filter:drop-shadow(9px 9px 9px rgba(0,0,0,0.4));
-background:linear-gradient(130deg, #84D6DA,#84D6DA,#13164f);
+background:linear-gradient(130deg, #E8C2CA,#E8C2CA,#13164f);
 background-size:300% 300%;
 -webkit-animation:Animation 6s ease infinite;
 -moz-animation:Animation 6s ease infinite;
 animation:Animation 6s ease infinite;
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 .container {
     width: 80%;
