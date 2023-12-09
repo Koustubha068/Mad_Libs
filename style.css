@@ -2,10 +2,21 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('pure-white-snow-surface.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-family: "fields", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 h1:hover{
 opacity:0.7;
 cursor:pointer;
+font-family: "fields", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 .header{
@@ -18,7 +29,7 @@ border:0px solid #D0D0D0;
 padding-top:10px;
 padding-bottom:10px;
 filter:drop-shadow(9px 9px 9px rgba(0,0,0,0.4));
-background:linear-gradient(130deg, #E8C2CA,#E8C2CA,#13164f);
+background:linear-gradient(130deg, #c1ced8,#a2adbb,#75808b);
 background-size:300% 300%;
 -webkit-animation:Animation 6s ease infinite;
 -moz-animation:Animation 6s ease infinite;
