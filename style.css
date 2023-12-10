@@ -29,7 +29,7 @@ border:0px solid #D0D0D0;
 padding-top:10px;
 padding-bottom:10px;
 filter:drop-shadow(9px 9px 9px rgba(0,0,0,0.4));
-background:linear-gradient(130deg, #c1ced8,#a2adbb,#75808b);
+background:linear-gradient(130deg, #8293a5,#758597,#3c4953);
 background-size:300% 300%;
 -webkit-animation:Animation 6s ease infinite;
 -moz-animation:Animation 6s ease infinite;
@@ -66,11 +66,45 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
+margin:0px auto 0px;
+color:rgb(56, 52, 52);
+text-align:center;
+border:0px solid #292323;
+
+padding-top:10px;
+padding-bottom:10px;
+filter:drop-shadow(12px 9px 9px rgba(0,0,0,0.4));
+background:linear-gradient(130deg,  #8293a5,#758597,#3c4953);
+background-size:300% 300%;
+-webkit-animation:Animation 6s ease infinite;
+-moz-animation:Animation 6s ease infinite;
+animation:Animation 6s ease infinite;
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 
 #madLibOutput {
     padding: 20px;
     text-align: center;
+}
+p{
+    font-family: "haboro-contrast-normal", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* Add more styles based on your creativity and design preferences */
