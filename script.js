@@ -7,7 +7,7 @@ let person = prompt('Enter a noun(name)');
 let verb = prompt('Enter a Verb');
 let verbtwo = prompt('Enter another Verb');
 let verbthree = prompt('Enter a different Verb');
-let verbfour = prompt('Enter a positive verb');
+let verbfour = prompt('Enter a positive connotated verb');
 let Noun = prompt('Enter a plural noun');
 
 let noun = prompt('Enter a Noun');
